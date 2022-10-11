@@ -16,7 +16,7 @@ const patrickStanding = "https://i.imgur.com/BCVxXHx.png";
 $(document).ready(() => {
     const body = $("body");
 
-    body.append(`<img id=\"follower\" style=\"position: absolute; z-index: 5000;\" src=\"${patrickStanding}\"/>`);
+    body.append(`<img id=\"follower\" style=\"position: absolute; z-index: 5000; top: 0; left: 0\" src=\"${patrickStanding}\"/>`);
 });
 
 $(document).mousemove(function(e){
